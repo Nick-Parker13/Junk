@@ -1,0 +1,83 @@
+<style> 
+
+
+body{
+  background: linear-gradient(90deg, rgb(241, 179, 179), rgb(142, 123, 226), rgb(204, 204, 255));
+  color: black; 
+  font-family: 'Courier New', Courier, monospace; 
+  text-align: center;
+}
+h1{
+  font-family: initial;
+}
+
+
+
+
+</style>
+
+
+<html> 
+<h1 id="title"> Feelings on Rats </h1> 
+<p id="description"> Fill out the details below to select your personal feelings about rats </p> 
+
+
+<form id="survey-form"> 
+  <label for="name"> Name </label>
+  <input id="name" type="text" name="name" placeholder="Remy" required> </input>
+   <label for="email" id="email-label"> Email </label> 
+  <input id="email" type="email" name="email" placeholder="rats@rodent.co.za" required> </input> 
+  <br> 
+<br>
+<label for="number" id="number-label"> How many rats have you seen? </label> 
+<input id="number" type="number" placeholder="24" min="0" max="1500" required></input> 
+<br> 
+<br>
+<label for="dropdown" id="emotion"> How do rats make you feel? </label> 
+<select for="dropdown"> 
+        <option value="Happy"> Happy </option>
+        <option value="Sad"> Sad </option>
+        <option value="Wrath"> Wrath </option>
+        <option value="Clarity"> Clarity </option>
+        <option value="Lust"> Lust </option>
+        </select>              
+<br>
+<br> 
+
+<label for="rat-color" id="rat-color"> Which color rat is your favourite? </label> 
+
+<input for="rat-color" type="radio" id="white" name="color" value="white"> 
+<label for="rat-color"> White </label>
+
+<input for="rat-color" type="radio" id="brown" name="color" value="brown"> 
+<label for="rat-color"> Brown </label> 
+
+<input for="rat-color" type="radio" id="black" name="color" value="black"> 
+<label for="rat-color"> Black </label> 
+<br> 
+<br> 
+
+<label for="behavior"> What rat behavior do you <b>dislike</b>? </label> 
+<br>
+ <input id="checkbox" type="checkbox" name="behavior" value="consume"> 
+<label for="checkbox"> Consuption of Food </label> 
+<br> 
+ <input id="checkbox" type="checkbox" name="behavior" value="movement"> 
+<label for="checkbox"> Asorted movements </label> 
+<br>
+ <input id="checkbox" type="checkbox" name="behavior" value="hands"> 
+<label for="checkbox"> Rub hands together </label> 
+<br> 
+<br>
+<label id="textareas"> Additional comments: </label> 
+<br> 
+<br>
+<textarea id="textareas" name="user_comments" rows="4" columns="30"> 
+  
+</textarea> 
+<br> 
+<br>
+<input id="submit" type="submit" value="Share Your Thoughts">
+</form>
+   
+</html>
